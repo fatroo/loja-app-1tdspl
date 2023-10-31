@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .linkCabecalho{
+        @apply hover:bg-lime-400 transition-all duration-500 ease-out rounded
+    }
+
+
+    .rodape{
+        @apply bg-green-100 text-center fixed justify-around w-full bottom-0;
+    }
+
+    .card-eletro-view{
+        @apply bg-slate-500;
+
+        & ul{
+            @apply flex flex-row flex-wrap justify-center;
+        }
+    }
+}
